@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- SEO -->
+  <title>Custom Wedding Invitation Card Design</title>
+  <meta name="description" content="Custom wedding invitation card design services. Elegant, modern, and personalized wedding invitations for digital and print." />
+  <meta name="keywords" content="custom wedding invitation, wedding card designer, wedding stationery, digital wedding invites" />
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #faf7f5;
+      color: #333;
+    }
+
+    header {
+      background: #e8dcd5;
+      text-align: center;
+      padding: 70px 20px;
+    }
+
+    header h1 {
+      font-size: 38px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      max-width: 650px;
+      margin: auto;
+      font-size: 18px;
+    }
+
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 60px 20px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    /* Services */
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .box {
+      background: white;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+
+    /* Gallery */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 15px;
+    }
+
+    .gallery div {
+      background: #ddd;
+      height: 200px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      color: #555;
+    }
+
+    /* Contact */
+    form {
+      max-width: 500px;
+      margin: auto;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      background: #333;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    /* CTA */
+    .cta {
+      background: #e8dcd5;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    /* Floating buttons */
+    .float {
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .float a {
+      padding: 12px 15px;
+      background: #25d366;
+      color: white;
+      text-decoration: none;
+      border-radius: 50px;
+      font-size: 14px;
+      text-align: center;
+    }
+
+    .float a.instagram {
+      background: #e1306c;
+    }
+
+    footer {
+      background: #f0ece9;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Custom Wedding Invitation Card Design</h1>
+  <p>Elegant, modern, and personalized wedding invitation designs crafted to match your unique love story.</p>
+</header>
+
+<section>
+  <h2>Services</h2>
+  <div class="services">
+    <div class="box">Personalized Wedding Invitations</div>
+    <div class="box">Digital Wedding Invites</div>
+    <div class="box">Luxury & Minimal Designs</div>
+    <div class="box">Complete Wedding Stationery</div>
+  </div>
+</section>
+
+<section>
+  <h2>Portfolio</h2>
+  <div class="gallery">
+    <div>Your Design</div>
+    <div>Your Design</div>
+    <div>Your Design</div>
+    <div>Your Design</div>
+  </div>
+</section>
+
+<section>
+  <h2>Contact Me</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required />
+    <input type="email" placeholder="Your Email" required />
+    <textarea rows="4" placeholder="Tell me about your wedding..." required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<div class="cta">
+  <h2>Let’s Create Something Beautiful</h2>
+  <p>DM or message me for custom wedding invitation designs.</p>
+</div>
+
+<div class="float">
+  <a href="https://wa.me/1234567890" target="_blank">WhatsApp</a>
+  <a href="https://instagram.com/yourprofile" target="_blank" class="instagram">Instagram</a>
+</div>
+
+<footer>
+  © 2026 Custom Wedding Invitation Card Design
+</footer>
+
+</body>
+</html>
